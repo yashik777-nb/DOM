@@ -18,7 +18,7 @@ function onClick(e) {
   val = e.target;
   val = e.target.Id;
   val = e.target.className;
-  val = e.target.classList;
+  val = e.target.classList; // collection list
 
   e.target.innerText = "Hello";
 
