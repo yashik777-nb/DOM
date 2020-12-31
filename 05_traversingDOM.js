@@ -65,5 +65,3 @@ val = listItem.nextElementSibling.nextElementSibling.previousElementSibling;
 // Get Previous Sibling
 val = listItem.previousSibling;
 val = listItem.previousElementSibling;
-
-console.log(val);

@@ -16,10 +16,11 @@ function onClick(e) {
 
   // Event Target Element
   val = e.target;
-  val = e.target.Id;
+  val = e.target.id;
   val = e.target.className;
-  val = e.target.classList; // collection list
+  val = e.target.classList;
 
+  // collection list
   e.target.innerText = "Hello";
 
   // Event Type

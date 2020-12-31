@@ -32,6 +32,7 @@ list.removeChild(li[3]);
 // ----------------------
 //  CLASSES & ATTRIBUTES
 // ----------------------
+console.log("Classes and Attributes");
 const firstLi = document.querySelector("li:first-child");
 const link = firstLi.children[0];
 
@@ -45,6 +46,7 @@ val = link.className;
 val = link.classList;
 
 link.classList.add("test");
+console.log(link);
 link.classList.remove("test");
 
 val.forEach(function (v) {

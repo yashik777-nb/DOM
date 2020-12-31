@@ -25,16 +25,15 @@ val = document.links[0].className;
 val = document.links[0].classList[0];
 
 val = document.images;
-
 val = document.scripts;
-val = document.scripts[2].getAttribute('src');
+val = document.scripts[2].getAttribute("src");
 
 let scripts = document.scripts;
 
 let scriptsArr = Array.from(scripts);
 
-scriptsArr.forEach(function(script) {
-  console.log(script.getAttribute('src'));
+scriptsArr.forEach(function (script) {
+  console.log(script.getAttribute("src"));
 });
 
 console.log(val);

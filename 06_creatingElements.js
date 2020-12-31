@@ -1,6 +1,7 @@
 // Create a Element
 
 const li = document.createElement("li");
+console.log(li);
 
 // Add Class
 li.className = "collection-item";
@@ -24,4 +25,4 @@ li.appendChild(link);
 // Append li as child to ul
 document.querySelector("ul.collection").appendChild(li);
 
-console.log(li);
+// console.log(li);
